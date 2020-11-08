@@ -8,3 +8,15 @@
     left: 0;
     width: 100%;
     }
+
+.titulo_producto{
+    position: absolute;
+    top: 200px;
+    left: 0px;
+    width: 100%;
+    text-align: center;
+    font-size: 75px;
+    color: white;
+    background-color: rgba(100, 148, 237, 0.637) ;
+    border-radius: 100px;
+}

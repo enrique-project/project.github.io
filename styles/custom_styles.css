@@ -158,6 +158,16 @@ ul.show{
     z-index: 1;
 }
 
+.carousel-caption{
+    bottom: 36%;
+    font-size: 66px;
+}
+
+.carousel-caption p{
+    background-color: #0c70b773;
+    border-radius: 0px;
+}
+
 /* estilos de footer */
 
 #submenu{
@@ -171,6 +181,37 @@ p{
     
     
 }
+
+@media only screen and (max-width: 768px){
+    .carousel-caption {
+        bottom: 20% !important;
+        font-size: 38px !important;
+    }
+}
+
+@media only screen and (max-width: 568px){
+    .carousel-caption {
+        bottom: 20% !important;
+        font-size: 27px !important;
+    }
+
+    .menu{
+        background-color: black;
+    }
+
+    #carouselExampleCaptions{
+        padding-top: 65px;
+    }
+}
+
+@media only screen and (max-width: 420px){
+    .carousel-caption {
+        bottom: 1% !important;
+        font-size: 20px !important;
+    }   
+}
+
+
 
 /* estilos de NOSOTROS */
 
