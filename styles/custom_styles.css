@@ -217,7 +217,12 @@ p{
 
 .texto{
     text-align: justify;
-    text-align-last: center;
+    
+}
+.texto_contenido{
+    color: black;
+    text-align: left;
+    text-align: justify;
 }
 
 .content_m_p{
