@@ -82,7 +82,7 @@
 
         <!-- seccion nosotros -->
         <section class="nosotros" id="nosotros">
-            <div class="container">
+            <div class="">
                 <div class="text-center  ">
                     <h2 class="pt-5 mt-5">Nosotros</h2>
                     <hr class="linea">
@@ -144,7 +144,7 @@
 
         <!-- seccion productos -->
         <section class="productos" id="productos">
-            <div class="container">
+            <div class="">
                 <div class="text-center ">
                     <h2 class="pt-5 mt-5">Productos</h2>
                     <hr class="linea">
@@ -255,67 +255,9 @@
         </section>
 
 
-        
-
-
-        <!-- seccion contacto -->
-        <section class="contacto d-flex justify-content-center"  id="contacto">
-
-          <div class="  col-md-6 contacto_form">
-            
-            <div class="container">
-
-              <div class=" titulo_form text-center">
-                <h1>Contacto</h1>
-              </div>
-                    <form role="form" id="Formulario" action="../php/contacto2.php" method="POST">
-                        <div class="form-group">
-                            <label class="control-label" for="Nombre">Nombres</label>
-                            <input type="text" class="form-control" id="Nombre" name="Nombre" placeholder="Introduzca su nombre" required autofocus />
-                        </div>            
-                        <div class="form-group">
-                            <label class="control-label" for="Motivo">Motivo de Contacto</label>
-                            <select name="Motivo" class="form-control">
-                                <option value="Consulta General">Consulta General</option>
-                                <option value="Realizar Pedido">Realizar Pedido</option>
-                            </select>
-                        </div>
-                        <div class="form-group">
-                            <label class="control-label" for="Empresa">Empresa</label>
-                            <input type="text" class="form-control" id="Empresa" name="Empresa" placeholder="Introduzca el nombre de su empresa" required />
-                        </div>
-                        <div class="form-group">
-                            <label class="control-label" for="Correo">Dirección de Correo Electrónico</label>
-                            <input type="email" class="form-control" id="Correo" name="Correo" placeholder="Introduzca su correo electrónico" required />
-                        </div>
-                        <div class="form-group">
-                            <label class="control-label" for="Mensaje">Mensaje</label>
-                            <textarea rows="5" cols="30" class="form-control" id="Mensaje" name="Mensaje" placeholder="Introduzca su mensaje" required ></textarea>
-                        </div>
-                        <div class="form-group">                
-                            <input type="submit" class="btn btn-primary" value="Enviar">
-                            <input type="reset" class="btn btn-default" value="Limpiar">                
-                        </div>
-                        <div id="respuesta" style="display: none;"></div>
-                    </form>
-            </div>       
-          </div>
-
-
-          
-
-
-        </section>
-
-
-
-        
-        
-        
-
         <!-- seccion proyectos -->
         <section class="proyectos project_content" id="proyectos">
-          <div class="container proyecto_scroll">
+          <div class=" proyecto_scroll">
             <div class="text-center ">
               <h1 class="">Proyectos</h1>
               <hr class="linea">
@@ -401,6 +343,64 @@
             </div>
           </div>
         </section>
+
+
+        <!-- seccion contacto -->
+        <section class="contacto d-flex justify-content-center"  id="contacto">
+
+          <div class="  col-md-6 contacto_form">
+            
+            <div class="container">
+
+              <div class=" titulo_form text-center">
+                <h1>Contacto</h1>
+              </div>
+                    <form role="form" id="Formulario" action="../php/contacto2.php" method="POST">
+                        <div class="form-group">
+                            <label class="control-label" for="Nombre">Nombres</label>
+                            <input type="text" class="form-control" id="Nombre" name="Nombre" placeholder="Introduzca su nombre" required  />
+                        </div>            
+                        <!-- <div class="form-group">
+                            <label class="control-label" for="Motivo">Motivo de Contacto</label>
+                            <select name="Motivo" class="form-control">
+                                <option value="Consulta General">Consulta General</option>
+                                <option value="Realizar Pedido">Realizar Pedido</option>
+                            </select>
+                        </div> -->
+                        <div class="form-group">
+                            <label class="control-label" for="Empresa">Empresa</label>
+                            <input type="text" class="form-control" id="Empresa" name="Empresa" placeholder="Introduzca el nombre de su empresa" required />
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label" for="Correo">Dirección de Correo Electrónico</label>
+                            <input type="email" class="form-control" id="Correo" name="Correo" placeholder="Introduzca su correo electrónico" required />
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label" for="Mensaje">Mensaje</label>
+                            <textarea rows="5" cols="30" class="form-control" id="Mensaje" name="Mensaje" placeholder="Introduzca su mensaje" required ></textarea>
+                        </div>
+                        <div class="form-group">                
+                            <input type="submit" class="btn btn-primary" value="Enviar">
+                            <input type="reset" class="btn btn-default" value="Limpiar">                
+                        </div>
+                        <div id="respuesta" style="display: none;"></div>
+                    </form>
+            </div>       
+          </div>
+
+
+          
+
+
+        </section>
+
+
+
+        
+        
+        
+
+        
 
           <!-- footer -->
         <section id="submenu">

@@ -42,4 +42,17 @@
 .texto_cortina{
     text-align: justify;
     padding-bottom: 30px;
+    margin-bottom: 20px;
+}
+
+/* estilos de muro cortina */
+
+.first_content{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.botones{
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
