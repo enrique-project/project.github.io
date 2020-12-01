@@ -418,6 +418,7 @@ p{
 
 .contacto_form{
     background-color: #ffffffad;
+    
 }
 
 .contacto{
@@ -430,6 +431,8 @@ p{
     background-position: center 25%;
     background-repeat: no-repeat;
     background-size: cover;
+    
+    
 }
 
 .titulo_form{

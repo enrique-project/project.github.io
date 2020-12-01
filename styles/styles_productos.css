@@ -56,3 +56,17 @@
     margin-top: 10px;
     margin-bottom: 20px;
 }
+
+/* estilos del navbar desplegable */
+
+.sub_menu{
+    color: white !important;
+}
+
+.sub_menu_content{
+    background-color:rgba(0, 0, 0, 0.6) !important ;
+}
+
+.dropdown-item:hover{
+    background-color: #0084e3 !important ;
+}
